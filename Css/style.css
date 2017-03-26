@@ -1,0 +1,133 @@
+li 	{
+	font-family: 'Open Sans', sans-serif;
+}
+.nav {
+	position:relative;
+	overflow:hidden;
+	width: 800px;
+	margin: auto;
+}
+
+.nav li {
+	display:inline;
+	margin-left: 80px;
+}
+
+.nav img{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+a {
+	text-decoration: none;
+	color: #ae9cb5;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+img {
+	display: inline;
+	height: 140px;
+	width: 220px;
+	border-radius: 5px;
+}
+
+.ImgRow {
+	display: block;
+	width: 700px;
+	margin: auto;
+}
+
+
+#fade-1 {
+	opacity:0.9;
+}
+
+#fade-2 {
+	opacity:0.6;
+}
+
+#fade-3 {
+	opacity:0.5;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 50px;
+	width:800px;
+	margin: auto;
+}
+
+blockquote{
+	display: block;
+ 	text-align: right;
+ 	margin-right: 360px;
+	font-family: 'Open Sans', sans-serif;
+	font-variant: small-caps;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+	width: 500px;
+	margin: auto;
+}
+
+/*	below is Form styling */
+
+form {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#contact-form {
+	width: 500px;
+	height: 100%;
+	margin: auto;
+}
+
+form {
+	border:none;
+}
+
+input[type=text]{
+	width:100%;
+	margin: 10px 0;
+	padding-bottom: 12px;
+}
+
+input[type=email]{
+	width:100%;
+	margin: 10px 0;
+	padding-bottom: 12px;
+}
+
+input[type=submit]{
+	display:block;
+	width:80%;
+	height: 40px;
+	margin: auto;
+	margin-top:8px;
+	border:none;
+	background-color:#ae9cb5;
+	color: white;
+}
+
+textarea {
+	width: 100%;
+	padding-bottom: 20px;
+	margin: 10px 0;
+}
+
+fieldset{
+	border-radius:5px;
+}
+
