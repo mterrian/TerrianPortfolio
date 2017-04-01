@@ -110,7 +110,7 @@ input[type=email]{
 	padding-bottom: 12px;
 }
 
-input[type=submit]{
+button[type=button]{
 	display:block;
 	width:80%;
 	height: 40px;
@@ -119,6 +119,10 @@ input[type=submit]{
 	border:none;
 	background-color:#ae9cb5;
 	color: white;
+}
+
+button:hover {
+	cursor: pointer;
 }
 
 textarea {

@@ -19,18 +19,17 @@
 
 		<h1>Contact Me</h1>
 		<fieldset>
-		<form id="contact" method="post" action="">
-
+		<form id="contact" method="post" action="" >
 		<label for="name">Name</label>
-		<input type="text" name="name">
+		<input type="text" name="userName" id="UserName">
 
 		<label for="email">E-mail</label>
 		<input type="email" name="email">
 
 		<label for="message">Question/Comment</label>
 		<textarea name="message"></textarea>
-
-		<input type="submit" name="submit" id="submit" value="Send Message" />
+		<script src="../Javascript/javascript.js"></script>
+		<button type="button" onclick="return greetUser()" name="submit" id="submit" value="Send Message">Click Here!</button>
 		
 		</form>
 		</fieldset>
